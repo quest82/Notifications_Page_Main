@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Frontend Mentor | Notifications page</title>
+		<script src="logic.js" defer></script>
+	</head>
+
+	<!-- Body Starts Here -->
+	<body class="flex">
+		<main class="mainNotificationContainer">
+			<!-- The main container holding the entire layout-->
+			<header class="notificationHeader flex">
+				<h1 class="notification_title">Notifications <span class="notifications_counter">3</span>
+				</h1>
+ 				<p class="mark_as_read">Mark all as read</p>
+			</header>
+			<!-- Sorta the navbar -->
+
+			<div class="notification_banners new_notifications flex">
+				<div class="profile_img_container">
+					<img
+						src="./Notifications Page Main/assets/images/avatar-mark-webber.webp"
+						alt=""
+						class="profile_img"
+					/>
+				</div>
+				<div class="notification_info">
+					<p class="notification_message">
+						<a class="profile_name" href="#">Mark Webber </a>reacted to your
+						recent post
+						 <a href="" class="post_link">My first tournament today!</a>
+						<span class="new_notifications_sign"></span>
+					</p>
+					<p class="notification_time_counter">1m ago</p>
+				</div>
+			</div>
+
+			<div class="notification_banners new_notifications flex">
+				<div class="profile_img_container">
+					<img
+						src="./Notifications Page Main/assets/images/avatar-angela-gray.webp"
+						alt=""
+						class="profile_img"
+					/>
+				</div>
+				<div class="notification_info">
+					<p class="notification_message">
+						<a href="#" class="profile_name">Angela Gray </a>followed you
+						<span class="new_notifications_sign"></span>
+					</p>
+					<p class="notification_time_counter">5m ago</p>
+				</div>
+			</div>
+
+			<div class="notification_banners new_notifications flex">
+				<div class="profile_img_container">
+					<img
+						src="./Notifications Page Main/assets/images/avatar-jacob-thompson.webp"
+						alt=""
+						class="profile_img"
+					/>
+				</div>
+				<div class="notification_info">
+					<p class="notification_message">
+						<a href="#" class="profile_name">Jacob Thompson </a>has joined your
+						group <a href="chess.com" class="community_link">Chess Club </a
+						><span class="new_notifications_sign"></span>
+					</p>
+					<p class="notification_time_counter">1 day ago</p>
+				</div>
+			</div>
+
+			<div class="notification_banners flex">
+				<div class="profile_img_container">
+					<img
+						src="./Notifications Page Main/assets/images/avatar-rizky-hasanuddin.webp"
+						alt=""
+						class="profile_img"
+					/>
+				</div>
+				<div class="notification_info">
+					<p class="notification_message">
+						<a href="#" class="profile_name">Rizky Hasanuddin</a> sent you a
+						private message
+					</p>
+					<p class="notification_time_counter">5 days ago</p>
+					<a href="example.com" class="direct_message_preview">
+						Hello, thanks for setting up the Chess Club. I've been a member for
+						a few weeks now and I'm already having lots of fun and improving my
+						game.
+					</a>
+				</div>
+			</div>
+
+			<div class="notification_banners flex">
+				<div class="profile_img_container">
+					<img
+						src="./Notifications Page Main/assets/images/avatar-kimberly-smith.webp"
+						alt=""
+						class="profile_img"
+					/>
+				</div>
+				<div class="notification_info">
+					<p class="notification_message">
+						<a href="#" class="profile_name">Kimberly Smith</a> commented on
+						your picture
+					</p>
+					<p class="notification_time_counter">1 week ago</p>
+				</div>
+				<div class="comment_subject">
+					<img
+						src="./Notifications Page Main/assets/images/image-chess.webp"
+						alt=""
+						class="comment_img"
+					/>
+				</div>
+			</div>
+
+			<div class="notification_banners flex">
+				<div class="profile_img_container">
+					<img
+						src="./Notifications Page Main/assets/images/avatar-nathan-peterson.webp"
+						alt=""
+						class="profile_img"
+					/>
+				</div>
+				<div class="notification_info">
+					<p class="notification_message">
+						<a href="#" class="profile_name">Nathan Peterson</a> reacted to
+						your recent post
+						<a href="#" class="post_link">5 end-game strategies to increase your win rate</a>
+					</p>
+					<p class="notification_time_counter">2 weeks ago</p>
+				</div>
+			</div>
+
+			<div class="notification_banners flex">
+				<div class="profile_img_container">
+					<img
+						src="./Notifications Page Main/assets/images/avatar-anna-kim.webp"
+						alt=""
+						class="profile_img"
+					/>
+				</div>
+				<div class="notification_info">
+					<p class="notification_message">
+						<a href="#" class="profile_name">Anna Kim</a> left the group
+						<a href="chess2.com" class="community_link">Chess Club </a>
+					</p>
+					<p class="notification_time_counter">2 weeks ago</p>
+				</div>
+			</div>
+		</main>
+
+		<!-- <div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div> -->
+	</body>
+</html>
