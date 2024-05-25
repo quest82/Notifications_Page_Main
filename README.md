@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/quest82/Notifications_Page_Main)
+- Live Site URL: [Add live site URL here](https://quest82.github.io/Notifications_Page_Main/)
 
 ## My process
 
@@ -48,6 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Sammy](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Sammy]
+- Frontend Mentor - [@quest82](https://www.frontendmentor.io/profile/quest82)
+- Twitter - [@Who_iz_Sammy](https://x.com/Who_iz_Sammy)
